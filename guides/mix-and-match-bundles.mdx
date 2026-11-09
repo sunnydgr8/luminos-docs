@@ -1,0 +1,46 @@
+---
+title: "Mix and match bundles"
+description: "Set up the LuminOS mix and match bundle builder"
+---
+
+# Mix and match bundles
+
+Build a product pool with tiered quantity discounts using the **Lumin Bundle Builder** section. Cart lines use `_lumin_bundle_*` properties (flat cart). Checkout discounts require the [Lumin Discount App](/guides/lumin-discount-app).
+
+## Video
+
+Replace `VIDEO_ID` when your Loom is ready:
+
+```html
+<iframe
+  src="https://www.loom.com/embed/VIDEO_ID"
+  frameborder="0"
+  allowFullScreen
+  style="width: 100%; height: 400px; border-radius: 8px;"
+></iframe>
+```
+
+## Setup
+
+1. Create or open a page/product template that should host the builder.
+2. In the theme editor, **Add section → Lumin Bundle Builder** (or your store’s labeled mix & match section).
+3. Add products to the pool and configure tiers (quantity thresholds and percent off labels).
+4. Style desktop/mobile sidebars, accents, and slot image ratios in section settings.
+5. Install and configure the [Lumin Discount App](/guides/lumin-discount-app) so tier discounts apply at checkout.
+6. Preview cart: bundle lines should show the bundle header styling from theme cart settings.
+
+## Cart behavior
+
+- Lines are flat (no nested parent line); properties identify the bundle.
+- Theme cart drawer can show a **bundle header** with colors from Theme settings → Cart.
+- Without the Discount App, UI tiers still display but checkout may charge full price.
+
+## Tips
+
+- Keep tier quantities clear (for example 3 / 6 / 9).
+- Test with a real checkout in a development store before launch.
+- See section reference after running `npm run generate` under **Sections**.
+
+## Still stuck?
+
+Post in [Setup help](https://community.lumintheme.com/c/setup-help) with a screenshot of tiers and whether the Discount App is installed.

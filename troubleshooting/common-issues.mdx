@@ -1,0 +1,58 @@
+---
+title: "Common issues"
+description: "Fix bundle discounts, empty reviews, waitlist, and cart problems"
+---
+
+# Common issues
+
+## Bundle discount not applying at checkout
+
+**Symptoms:** Tier labels show in the builder, but checkout is full price.
+
+**Checks:**
+
+1. [Lumin Discount App](/guides/lumin-discount-app) is installed and enabled.
+2. App tier percents match the Bundle Builder section.
+3. Cart lines include `_lumin_bundle_*` properties (inspect cart in a development store).
+4. No conflicting Shopify automatic discounts overriding the app.
+
+See [Mix and match bundles](/guides/mix-and-match-bundles).
+
+## Meta Reviews section is empty
+
+1. Metaobject handle is exactly `lumin_review`.
+2. **Storefronts API access** is On (Read).
+3. Entries have the correct **product** reference for the page you are viewing.
+4. You added **Lumin Meta Reviews**, not the Kit reviews section.
+
+Full steps: [Meta Reviews](/guides/meta-reviews).
+
+## Kit reviews not loading
+
+1. Lumin Kit app is installed; app proxy is active.
+2. You are using the Kit **Lumin Reviews** section, not Meta Reviews.
+3. Reviews are synced/published in the app.
+
+See [Lumin Kit reviews](/guides/lumin-kit-reviews).
+
+## Waitlist button does nothing visible
+
+The waitlist flow tags customers (theme uses a tag such as `luminos-waitlist`). Confirm the customer account / form succeeded and check customer tags in Admin. Theme or app notifications may be required for email follow-up.
+
+## Free shipping bar never completes
+
+Align bar thresholds with your real shipping rates in **Settings → Shipping**. Currency and compare-at vs payable cart totals can make the bar look “stuck.”
+
+## Gift wrap missing
+
+Ensure a gift wrap product exists, is available in the market, and Theme settings → Cart gift wrap mode matches how that product is set up. See [Cart drawer](/guides/cart-drawer).
+
+## Still stuck?
+
+1. Search [docs.lumintheme.com](https://docs.lumintheme.com).
+2. Post in the matching community category:
+   - [Setup help](https://community.lumintheme.com/c/setup-help)
+   - [Bugs](https://community.lumintheme.com/c/bugs)
+   - [Feature requests](https://community.lumintheme.com/c/feature-requests)
+
+Include theme version (`1.0.0 — lumin-lander-1` or newer), template name, and screenshots.

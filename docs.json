@@ -1,0 +1,179 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "LuminOS Docs",
+  "description": "Tutorials and reference for the LuminOS Shopify theme by Lumintheme",
+  "colors": {
+    "primary": "#008060",
+    "light": "#00a87a",
+    "dark": "#00664d"
+  },
+  "favicon": "/images/favicon.svg",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Getting started",
+        "pages": [
+          "introduction",
+          "getting-started/install",
+          "getting-started/theme-editor",
+          "getting-started/theme-settings"
+        ]
+      },
+      {
+        "group": "Guides",
+        "pages": [
+          "guides/mix-and-match-bundles",
+          "guides/lumin-discount-app",
+          "guides/meta-reviews",
+          "guides/lumin-kit-reviews",
+          "guides/quantity-breaks",
+          "guides/frequently-bought-together",
+          "guides/mega-menu",
+          "guides/cart-drawer",
+          "guides/sibling-products"
+        ]
+      },
+      {
+        "group": "Apps and data",
+        "pages": [
+          "guides/lumin-discount-app",
+          "guides/meta-reviews",
+          "guides/lumin-kit-reviews",
+          "guides/sibling-products"
+        ]
+      },
+      {
+        "group": "Sections",
+        "pages": [
+          "sections/_blocks",
+          "sections/announcement-bar",
+          "sections/banner-grid",
+          "sections/block-_cart-drawer-countdown",
+          "sections/block-_cart-drawer-heading",
+          "sections/block-_cart-drawer-product-toggle",
+          "sections/block-_cart-drawer-products",
+          "sections/block-_cart-drawer-recommendations",
+          "sections/block-_cart-drawer-summary",
+          "sections/block-_free-shipping-bar",
+          "sections/block-_frequently-bought-together",
+          "sections/block-_lumin-reviews-bars",
+          "sections/block-_lumin-reviews-filters",
+          "sections/block-_lumin-reviews-gallery",
+          "sections/block-_lumin-reviews-list",
+          "sections/block-_lumin-reviews-questions",
+          "sections/block-_lumin-reviews-score",
+          "sections/block-_lumin-reviews-summary",
+          "sections/block-_lumin-reviews-write",
+          "sections/block-_mega-menu-image",
+          "sections/block-_mega-menu-product",
+          "sections/block-_mega-menu-tab",
+          "sections/block-_quantity-break-option",
+          "sections/block-_quantity-break-unlock-product",
+          "sections/block-_quantity-break-unlocks",
+          "sections/block-_quantity-breaks",
+          "sections/block-lumin-review-stars",
+          "sections/block-sibling-products",
+          "sections/block-waitlist-button",
+          "sections/blog-sidebar-layout",
+          "sections/carousel",
+          "sections/cart-drawer-section",
+          "sections/changelog",
+          "sections/collection-links",
+          "sections/collection-list",
+          "sections/comparison-table_1",
+          "sections/content-scrollbar",
+          "sections/custom-liquid",
+          "sections/divider",
+          "sections/email-popup",
+          "sections/feature-cards",
+          "sections/featured-blog-posts",
+          "sections/featured-collection-pro",
+          "sections/featured-product",
+          "sections/featured-product-information",
+          "sections/footer",
+          "sections/footer-utilities",
+          "sections/header",
+          "sections/header-announcements",
+          "sections/hero",
+          "sections/image-slider",
+          "sections/image-with-text",
+          "sections/layered-slideshow",
+          "sections/logo",
+          "sections/lumin-bundle-builder",
+          "sections/lumin-faq",
+          "sections/lumin-review",
+          "sections/lumin-reviews",
+          "sections/lumin-sections",
+          "sections/main-404",
+          "sections/main-blog",
+          "sections/main-blog-post",
+          "sections/main-cart",
+          "sections/main-collection",
+          "sections/main-collection-list",
+          "sections/main-page",
+          "sections/marquee",
+          "sections/media-slideshow",
+          "sections/media-with-content",
+          "sections/mini-feature-collection",
+          "sections/one-time",
+          "sections/password",
+          "sections/password-footer",
+          "sections/pickup-availability",
+          "sections/predictive-search",
+          "sections/predictive-search-empty",
+          "sections/price-increase-bar",
+          "sections/pricing-tiers",
+          "sections/pro-g-product",
+          "sections/product-hotspots",
+          "sections/product-information",
+          "sections/product-list",
+          "sections/product-recommendations",
+          "sections/quick-order-list",
+          "sections/search-header",
+          "sections/search-results",
+          "sections/section",
+          "sections/section-rendering-product-card",
+          "sections/simple-announcement-bar",
+          "sections/slideshow",
+          "sections/sliding-grid"
+        ]
+      },
+      {
+        "group": "Troubleshooting",
+        "pages": [
+          "troubleshooting/common-issues"
+        ]
+      },
+      {
+        "group": "Changelog",
+        "pages": [
+          "changelog"
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Community",
+        "href": "https://community.lumintheme.com"
+      },
+      {
+        "label": "Website",
+        "href": "https://lumintheme.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Get support",
+      "href": "https://community.lumintheme.com"
+    }
+  },
+  "footer": {
+    "socials": {
+      "website": "https://lumintheme.com"
+    }
+  },
+  "redirects": []
+}
