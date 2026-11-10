@@ -4,11 +4,33 @@
   "name": "LuminOS Docs",
   "description": "Tutorials and reference for the LuminOS Shopify theme by Lumintheme",
   "colors": {
-    "primary": "#008060",
-    "light": "#00a87a",
-    "dark": "#00664d"
+    "primary": "#0066CC",
+    "light": "#4D94FF",
+    "dark": "#004C99"
+  },
+  "logo": {
+    "light": "/images/logo-light.svg",
+    "dark": "/images/logo-dark.svg",
+    "href": "https://lumintheme.com"
   },
   "favicon": "/images/favicon.svg",
+  "appearance": {
+    "default": "dark"
+  },
+  "fonts": {
+    "family": "DM Sans"
+  },
+  "background": {
+    "decoration": "gradient",
+    "color": {
+      "light": "#FFFFFF",
+      "dark": "#0F1113"
+    }
+  },
+  "metadata": {
+    "og:site_name": "LuminTheme",
+    "og:title": "LuminOS Docs"
+  },
   "navigation": {
     "groups": [
       {
@@ -166,8 +188,8 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Get support",
-      "href": "https://community.lumintheme.com"
+      "label": "Visit LuminTheme",
+      "href": "https://lumintheme.com"
     }
   },
   "footer": {
